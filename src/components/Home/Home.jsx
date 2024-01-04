@@ -11,22 +11,22 @@ import Resume from "../Resume/ResumeNew";
 // import {useEffect} from 'react' 
 // import { useRef } from "react";
 
+// import axios from 'axios'
+
 
 function Home() {
+  // async function get(){
+  //   await axios.get('https://restcountries.com/v3.1/all')
+  //   .then((data) => {
+  //    console.log(data.data);
+  //  })
 
-  // const fetchall = () =>{
-  //   var url = "http://localhost:800"
-  //   fetch(url, {
-  //        method:'GET',
-  //         headers:{
-  //         'Content-Type':'applicaiton/json',
-  //         'X-CSRFToken':csrftoken,
-  //         },
-  //   })
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       console.log('Success:', data)
-  // })}
+  //  useEffect(()=>{
+  //     get()
+  //  },[])
+
+
+
   const handleClick = () =>{
     console.log("you hit me")
     const phoneNumber = '+2349151529715';
@@ -51,7 +51,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'm {"  "}
+               I'm {"  "}
                 <strong className="main-name"> Ayeni Emmanuel</strong>
               </h1>
 
@@ -80,6 +80,6 @@ function Home() {
     </section>
 
   );
-}
 
+}
 export default Home;
