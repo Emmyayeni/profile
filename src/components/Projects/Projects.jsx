@@ -29,7 +29,7 @@ function Projects() {
               title="Chatify"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink=""
-              demoLink="https://chatify-49.web.app/"
+             
             />
           </Col>
 
@@ -40,7 +40,7 @@ function Projects() {
               title="Bits-0f-C0de"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
               ghLink=""
-              demoLink="https://blogs.soumya-jit.tech/"
+              
             />
           </Col>
 
@@ -51,7 +51,7 @@ function Projects() {
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink=""
-              demoLink="https://editor.soumya-jit.tech/"              
+                          
             />
           </Col>
 
@@ -62,7 +62,7 @@ function Projects() {
               title="chat bot "
               description="used tensorflow and nltk ."
               ghLink=""
-              demoLink="https://plant49-ai.herokuapp.com/"
+              
             />
           </Col>
 
